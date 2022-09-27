@@ -1,7 +1,0 @@
-conda create --name opencv-env python=3.8
-activate opencv-env
-pip install numpy scipy matplotlib scikit-learn jupyter imutils playsound geocoder twilio
-pip install opencv-contrib-python
-conda install -c conda-forge dlib
-
-python detect_drowsiness.py --webcam 0 --alarm alarm.wav
